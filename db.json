@@ -1,30 +1,33 @@
 {
-  "category": [
-    {
-      "id": 1,
-      "name": "Cat1"
-    },
-    {
-      "id": 2,
-      "name": "Cat2"
-    }
-    
-  ],
-  "brand": [
-    {
-      "id": 1,
-      "sk_category_id": 1,
-      "name": "Brand1"
-    },
-      {
-      "id": 2,
-      "sk_category_id": 1,
-      "name": "Brand2"
-    },
-    {
-      "id": 3,
-      "sk_category_id": 2,
-      "name": "Brand3"
-    }
-  ]
+
+	"channels" : [
+	],
+	"categorıes" : [
+		{
+			"id":1,
+			"name":"EC",
+			"parent":"",
+			"children":[
+				{
+					"id":2,
+					"name":"purifier",
+					"parent":1,
+					"children":[],
+					"products":[
+						{
+							"id":1,
+							"name":"hot and cool",
+						}
+					]
+				},
+				{
+					"id":3,
+					"name":"humidifier",
+					"parent":1,
+					"children":[],
+					"products":[]
+				}
+			]
+		}
+	]
 }
