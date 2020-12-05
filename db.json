@@ -2,7 +2,7 @@
 
 	"channels" : [
 	],
-	"categorıes" : [
+	"category" : [
 		{
 			"id":1,
 			"name":"EC",
